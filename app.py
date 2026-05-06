@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from data import generate_events, SPORTS
+from sports_data import generate_events, fluctuate_odds, SPORTS
 
 # ── Page config ───────────────────────────────────────────
 st.set_page_config(
